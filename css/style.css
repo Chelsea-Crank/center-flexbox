@@ -1,0 +1,58 @@
+/* THIS IS A CENTERED
+FLEXBOX BOILERPLATE
+BROUGHT TO YOU
+BY CHELSEA-CRANK
+NOTICE THE ALPHABETIZED
+PROPERTY VALUES AND THE
+LOVELY COMMENTED CODE */
+
+html {
+	font-size: 16px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+body { 
+	align-items: center;
+	background: url("../img/wow.png") bottom center no-repeat;
+	background-size: cover;
+	display: flex;
+	font-size: 1em;
+	height: 100%;
+	justify-content: center;
+	margin: 0 auto;	
+}
+
+.centered {
+	background: #FA77CA;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0 3.125em;
+}
+
+h1 {
+	color: ghostwhite;
+	font-size: 2em;
+	text-align: center;
+}
+
+
+/*************** TABLET ***************/
+@media screen and (min-width: 786px) {
+	h1 {
+		font-size:  3em;
+	}
+	.centered {
+	background: #C9B6FA;
+	}
+}
+
+/*************** DESKTOP ***************/
+@media screen and (min-width: 1200px) {
+	h1 {
+		font-size: 4em;
+	}
+	.centered {
+	background: #4B55E3;
+	}
+	
+}
